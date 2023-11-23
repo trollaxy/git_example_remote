@@ -11,3 +11,11 @@ git checkout b0d9d 切换至“b0d9d”版本
 git checkout -b "new_branch"  新建“new_branch”分支
 git checkout new_branch  切换至new_branch分支的最新版本
 git merge master 将master分支合并至new_branch分支
+git remote add origin git@github.com:trollaxy/git_example_remote.git 将本地仓库关联到git_example_remote
+git remote remove origin 将本地仓库取消关联
+git remote -v 查看本地仓库关联的信息
+git branch -M main 创建main分支
+git push -u origin main 将本地仓库上传到origin
+git clone git@github.com:trollaxy/git_example_remote.git 将git_example_remote复制到本地
+git push 将本地的更新上传
+git pull 将远程仓库的更新下载
