@@ -1,0 +1,12 @@
+git config --global user.name "Harry" 指定使用者
+git config --global user.email "trollaxy@smail.nju.edu.cn" 指定使用者邮箱
+git config -list 展示git配置
+git init 新建git仓库
+git status 查看git仓库状态
+git add ./git add -A 将所有修改(modified)加入暂存区(staged)
+git commit -m "comments" 将暂存区的内容提交(commited)，并做说明
+git log 查看提交日志
+git checkout b0d9d 切换至“b0d9d”版本
+git checkout -b "new_branch"  新建“new_branch”分支
+git checkout new_branch  切换至new_branch分支的最新版本
+git merge master 将master分支合并至new_branch分支
