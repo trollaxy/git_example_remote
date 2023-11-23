@@ -4,6 +4,6 @@
 #include<stdio.h>
 int main(void){
     printf("Hello World!\n");
-    printf("FUCK YOU BITCH!!!!!!!!\n");
+    printf("you mother fucker\n");
     return 0;
 }
